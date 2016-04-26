@@ -1,0 +1,15 @@
+---
+layout: digital-futures/wrapper
+---
+<div class="row">
+  <div  class="col-xs-12 col-md-6">
+    {{ content }}
+    <p><a class="btn btn-primary btn-lg" href="{{ page.find-out-more-link }}" role="button" title="{{ page.find-out-more-link-title }}">Find out more</a></p>
+  </div>
+  <div  class="col-xs-12 col-md-4">
+    <img class="featured" src="{{ page.main-img }}" alt="{{page.main-img-alt}}">
+  </div>
+  <div class="col-xs-12 col-md-2">
+    {% include citizens-uk-partnership.html %}
+  </div>
+</div> <!-- / .row -->

@@ -97,9 +97,7 @@ nav.navbar {
 
 }
 
-.nav-pills {
-    margin: -2rem 0 2rem;
-}
+
 #logo {
     max-width: 200px;
     margin: 3rem 1rem 2rem 40rem;
@@ -156,6 +154,9 @@ nav.navbar {
     font-weight: 200;
 }
 
+.nav-pills {
+    margin-bottom: 2rem;
+}
 
 
 footer {
@@ -230,9 +231,11 @@ img {
     body {
         padding-top: 70px;
     }
+    header h1 {
+        margin-top: 0;
+    }
     #logo {
-        position: absolute;
-        top: 5rem;
+        top: 0rem;
         margin: 0rem 2rem;
     }
     .navbar-fixed-bottom, .navbar-fixed-top {
@@ -244,6 +247,9 @@ img {
     .jumbotron h2 {
         font-size: 52px;
         margin: 0rem 0rem 3rem;
+    }
+    .nav-pills {
+        margin: -2rem 0 2rem;
     }
 
     .partnership {

@@ -4,6 +4,7 @@ title: Digital Futures
 permalink: /digital-futures/
 page-class: digital-futures
 nav-group: digital-futures
+find-out-more-title: Find out more
 find-out-more-link: course-overview
 find-out-more-link-title: Course content
 main-img: /img/apprentices.jpg

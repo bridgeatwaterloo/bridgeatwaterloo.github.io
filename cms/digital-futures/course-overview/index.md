@@ -1,7 +1,7 @@
 ---
 layout: digital-futures/course-overview
 title: Digital Futures Course Overview
-permalink: /digital-futures/course-overview/
+permalink: /digital-futures/course-overview
 nav-group: digital-futures
 page-class: digital-futures course-overview
 

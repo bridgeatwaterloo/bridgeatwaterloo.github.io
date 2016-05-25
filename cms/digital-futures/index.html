@@ -10,7 +10,16 @@ find-out-more-link-title: Course content
 main-img: /img/apprentices.jpg
 main-img-alt: Apprentices
 ---
-
+<div class="jumbotron">
+  <div class="container">
+    <div class="header-wrapper">
+      <h1><a class="df-link" href="/digital-futures/" title="The Bridge at Waterloo Digital Futures">Digital Futures</a></h1>
+      <h2 id="student">Get into London's booming tech world</h2><br>
+      <a class="btn btn-success btn-lg" href="#student">I'm a student</a>
+      <a class="btn btn-primary btn-lg" href="/tbaw-for-business">I'm a business</a>
+    </div>
+  </div><!-- / .container -->
+</div><!-- / .jumbotron -->
 <section class="question">
   <div class="container">
     <div class="row">
@@ -21,6 +30,7 @@ main-img-alt: Apprentices
       <div class="col-md-4 col-sm-12">
         <h3>Is this for me?</h3>
         <p>If you are Lambeth resident aged 18–30 who wants to upgrade your digital skills, this course is for you.</p>
+        <a href="#apply" class="btn btn-primary">Apply now</a>
       </div>
       <div class="col-md-4 col-sm-12">
         <h3>What will we do?</h3>
@@ -197,3 +207,15 @@ main-img-alt: Apprentices
     </div>
   </div>
 </section>
+<div class="question" id="apply">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        {% include digital-futures/young-cta.html %}
+      </div>
+      <div class="col-xs-12 col-md-6">
+        {% include digital-futures/business-cta.html %}
+      </div>
+    </div>
+  </div>
+</div>
